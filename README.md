@@ -1,4 +1,9 @@
 
+#################### OVERVIEW ####################
+
+This project utilizes a DQN network to teach an agent how to play several atari-2600 games wihtout the use of a CNN. This is done by using simple morphological operations that will extract features from a game image and feed them to the DQN. the game environments were built using the gym library that utilizes the stella emulator to extract data from the game and allow the agent to provide controller input.
+
+
 ################### INSTRUCTIONS ####################
 
 0-Extract all zip files into the same folder
